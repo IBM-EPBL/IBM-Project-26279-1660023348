@@ -1,0 +1,40 @@
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.42),rgba(29, 33, 33, 0.352)),url(../images/pexels-adrian-dorobantu-2127733.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    position: relative;
+  }
+  
+  .text-box{
+    font-family:'Times New Roman', Times, serif;
+    text-align:center;
+    position: relative;
+    color:  #ffffff;
+    top:30%;
+  }
+  .text-box h1{
+    margin-top: 10px;
+    font-size: 45px;
+  }
+  
+  .text-box p{
+    margin: 10px 0 40px;
+    font-size: 15px;
+  }
+  
+  body{
+      margin: 0;
+  }
+  
+  nav{
+    display:flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
